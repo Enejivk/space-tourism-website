@@ -19,8 +19,10 @@ menuBtn.addEventListener('click', () => {
     if(menu[1].classList.contains('togglemenu')){
         removeToggleMenu(true)
         menuBtn.innerHTML = close
+        menuBtn.style.background = 'red'
     } else {
         removeToggleMenu(false)
         menuBtn.innerHTML = open
+        menuBtn.style.background = 'transparent'
     }
 })

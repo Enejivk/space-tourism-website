@@ -138,6 +138,8 @@ nav {
     }
     #togglemenu-icon{
         display: block;
+        
+        margin-left: 90%;
     }
 
     .logo {
