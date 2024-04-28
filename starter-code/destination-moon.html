@@ -4,9 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="" />
         <title>Space tourism website</title>
-        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="../styles/styles.css" />
+        <link rel="stylesheet" href="../styles/destinations.css" />
     </head>
     <body>
         <nav>
@@ -20,14 +21,45 @@
             </div>
             <ul class="nav-list">
                 <span id="togglemenu-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21">
+                        <g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z" /></g>
+                    </svg>
                 </span>
-                <li class="togglemenu"><a href="">00 Home</a></li>
+                <li class="togglemenu"><a href="../index.html">00 Home</a></li>
                 <li class="togglemenu"><a href="">01 Destination</a></li>
                 <li class="togglemenu"><a href="">02 Crew</a></li>
                 <li class="togglemenu"><a href="">03 Technology</a></li>
             </ul>
         </nav>
+
+        <div class="destination-main-session">
+            <div class="destination-main-item">
+                <h2 class="pick-destination">PICK YOUR DESTINATION </h2>
+                <img src="./assets/destination/image-moon.png" alt="" />
+            </div>
+            <div class="destination-main-item row">
+                <div class="destination-btn">
+                    <button>MOON</button>
+                    <button>MARS</button>
+                    <button>EUPA</button>
+                    <button>TITAN</button>
+                </div>
+                <h1 class="location">MARS</h1>
+                <p class="destination-description">
+                    Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!
+                </p>
+                <div class="distance-travel-btn">
+                    <div>
+                        <p>AVG. DISTANCE</p>
+                        <h1>22 MIL. KM</h1>
+                    </div>
+                    <div>
+                        <p>EST. TRAVEL TIME</p>
+                        <h1>9 MONTHS</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>

@@ -1,0 +1,74 @@
+body {
+    background: url(/starter-code/assets/destination/background-destination-desktop.jpg);
+}
+.destination-main-session {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+.destination-main-item img {
+    transform: scale(0.8);
+}
+.distance-travel-btn {
+    display: flex;
+    justify-content: space-between;
+}
+.destination-main-item {
+    width: 27rem;
+}
+.destination-description {
+    line-height: 30px;
+    border-bottom: 2px solid white;
+    padding-bottom: 23px;
+    margin-bottom: 20px;
+}
+.destination-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.destination-btn button {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.location {
+    font-size: 9rem;
+    font-weight: 100;
+    margin: 20px 0;
+}
+.pick-destination {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1090px) {
+    body {
+        background-image: url(../starter-code/assets/destination/background-destination-tablet.jpg);
+    }
+
+    .destination-main-session {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 479px) {
+    body {
+        background: url(../starter-code/assets/destination/background-destination-mobile.jpg);
+    }
+    .destination-main-session {
+        margin-top: -5rem;
+        transform: scale(0.8);
+    }
+    .distance-travel-btn {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        line-height: 3rem;
+    }
+    .destination-main-item {
+        width: 27rem;
+    }
+    .destination-main-item img {
+    transform: scale(0.8);
+}
+}
