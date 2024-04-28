@@ -121,16 +121,17 @@ nav {
         position: absolute;
         left: 60%;
         top: 5%;
+        z-index: 100;
     }
     .nav-list a{
-        background-color: white;
-        color: black;
-        width: 120px;
+        background-color: rgb(82, 63, 63);
+        color: rgb(249, 240, 240);
+        width: 134px;
         margin: 5px;
-        border-radius: 20px;
-        padding: 2px 10px;
+        border-radius: 11px;
+        padding: 6px 4px;
         display: block;
-        font-size: 14px;
+        font-size: 18px;
 
     }
     .togglemenu{
@@ -138,7 +139,6 @@ nav {
     }
     #togglemenu-icon{
         display: block;
-        
         margin-left: 90%;
     }
 
@@ -148,5 +148,6 @@ nav {
     }
     .main-session{
         transform: scale(.8);
+        z-index: -200;
     }
 }
