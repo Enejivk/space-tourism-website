@@ -69,6 +69,17 @@ body {
         width: 27rem;
     }
     .destination-main-item img {
-    transform: scale(0.8);
-}
+        transform: scale(0.8);
+    }
+    .destination-btn {
+        padding: 0 50px;
+    }
+    .destination-description{
+        padding: 0 30px;
+        padding-bottom: 20px;
+    }
+    .location{
+        font-size: 7rem;
+        text-align: center;
+    }
 }
